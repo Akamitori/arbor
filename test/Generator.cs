@@ -1,8 +1,8 @@
+using NUnit.Framework;
+using System.Collections.Generic;
+
 namespace ArborTest
 {
-    using NUnit.Framework;
-    using System.Collections.Generic;
-
     [TestFixture]
     public partial class Generator : Base
     {

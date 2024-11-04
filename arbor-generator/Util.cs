@@ -1,7 +1,7 @@
+using Microsoft.CodeAnalysis;
+
 namespace Arbor
 {
-    using Microsoft.CodeAnalysis;
-
     internal static class Util
     {
         public static string RemoveSuffix(this string input, string suffix)

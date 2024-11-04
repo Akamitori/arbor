@@ -1,11 +1,10 @@
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Arbor
 {
-    using Microsoft.CodeAnalysis;
-    using Microsoft.CodeAnalysis.CSharp;
-    using System.Collections.Generic;
-    using System.Linq;
-
     [Generator]
     internal class ParamGenerator : ISourceGenerator
     {
