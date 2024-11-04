@@ -1,9 +1,9 @@
+using Arbor;
+using NUnit.Framework;
+using System.Collections.Generic;
+
 namespace ArborTest
 {
-    using Arbor;
-    using NUnit.Framework;
-    using System.Collections.Generic;
-
     [TestFixture]
     [Dec.RecorderEnumerator.RecordableClosures]
     public class Sequence : Base

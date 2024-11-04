@@ -1,11 +1,10 @@
 using System.ComponentModel;
 using Arbor;
+using NUnit.Framework;
+using System.Collections.Generic;
 
 namespace ArborTest
 {
-    using NUnit.Framework;
-    using System.Collections.Generic;
-
     [TestFixture]
     [Dec.RecorderEnumerator.RecordableClosures]
     public partial class Event : Base

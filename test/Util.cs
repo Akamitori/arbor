@@ -1,11 +1,10 @@
 using Dec;
+using Arbor;
+using System;
+using System.Collections.Generic;
 
 namespace ArborTest
 {
-    using Arbor;
-    using System;
-    using System.Collections.Generic;
-
     [Dec.RecorderEnumerator.RecordableClosures]
     public partial class ResultFunction : Node
     {

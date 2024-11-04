@@ -1,7 +1,7 @@
+using System;
+
 namespace Arbor
 {
-    using System;
-
     /// <summary>
     /// Contains global configuration data that may be needed before parsing.
     /// Initialize as soon as possible.
@@ -33,7 +33,7 @@ namespace Arbor
         /// </summary>
         /// <remarks>
         /// This should be made unmissably visible to developers and testers, ideally with a popup or a modal dialog.
-        /// 
+        ///
         /// Can be made to throw an exception. If it does, the exception will propagate to the caller. Otherwise, def will attempt to recover from the error.
         ///
         /// If you're using any multithreading, this must be threadsafe.
@@ -45,7 +45,7 @@ namespace Arbor
         /// </summary>
         /// <remarks>
         /// This should be made unmissably visible to developers and testers, ideally with a popup or a modal dialog.
-        /// 
+        ///
         /// Can be made to rethrow the exception or throw a new exception. If it does, the exception will propagate to the caller. Otherwise, def will attempt to recover from the error.
         ///
         /// If you're using any multithreading, this must be threadsafe.

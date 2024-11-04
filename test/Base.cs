@@ -1,9 +1,9 @@
+using NUnit.Framework;
+using System;
+using System.Reflection;
+
 namespace ArborTest
 {
-    using NUnit.Framework;
-    using System;
-    using System.Reflection;
-
     [TestFixture]
     public class Base
     {
